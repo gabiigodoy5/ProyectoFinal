@@ -1,11 +1,12 @@
 
 import './App.css';
-import appRouter from './routes/appRouter';
+import appRouter from '../src/routes/appRouter';
+ 
 
 const App =() => {
-  return (
-    <AppRouter />
+  return(
+    <appRouter />
   );
-}
+};
 
 export default App;

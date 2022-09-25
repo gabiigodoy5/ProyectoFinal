@@ -4,7 +4,7 @@ import { Redirect, Route } from "react-router-dom";
 
 
 
-const LogoutRoute = ({ component: Component, ..moreData}) => {
+const LogoutRoute = ({ component: Component, ...moreData}) => {
     return(
         <Route
         {...moreData}
